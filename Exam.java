@@ -74,6 +74,7 @@ public class Exam extends Security {
             }
             System.out.println("\n  Online exam successfully finished...\n\n  Best of Luck For Results...");
             pause("back");
+            main(null);
         } else {
             Exam.main(null);
         }
