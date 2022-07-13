@@ -3,14 +3,7 @@ import java.util.*;
 
 public class Exam extends Security {
 
-    String que[] = new String[100],
-            op1[] = new String[100],
-            op2[] = new String[100],
-            op3[] = new String[100],
-            op4[] = new String[100];
-
-    int gop, marks = 0, cop[] = new int[100],
-            qid[] = new int[100];
+    int marks = 0;
 
     Connection con = Security.con;
     PreparedStatement st = Security.st;
